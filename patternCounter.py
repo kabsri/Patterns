@@ -28,4 +28,7 @@ def validPattern(pattern):
         used.append(pattern[p+1])
     return True
         
-sequences = [[1,3,4,5,3], [4,5,3,6,2,9,6], [3,4,6,4,5,7,4,7], [3,2,1,5,4,3,8]]
+sequences = [[1,3,4,5], [4,5,3,6,2,9], [3,4,6,5,7], [3,2,1,5,4,8]]
+
+for seq in sequences:
+    print(validPattern(seq))
